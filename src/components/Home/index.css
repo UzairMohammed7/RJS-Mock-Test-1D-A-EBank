@@ -1,0 +1,41 @@
+* {
+  font-family: 'Roboto';
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.home-container {
+  background-color: #152850;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.logout-btn {
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 70px;
+}
+.digital-card-heading {
+  color: #ffffff;
+  font-size: 40px;
+  margin-top: 80px;
+  margin-bottom: 8px;
+}
+.digital-card-img {
+  height: 300px;
+}
